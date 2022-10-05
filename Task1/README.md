@@ -3,21 +3,21 @@
 git config --global user.name "username"
 ```
 Example
-![](./Task1/1_gitConfigName.jpg)
+![](./1_gitConfigName.jpg)
 
 ## 2. Configure Email
 ```
 git config --global user.email "email@example.com"
 ```
 Example
-![](./Task1/2_gitConfigEmail.jpg)
+![](./2_gitConfigEmail.jpg)
 
 ## 3. Git status
 ```
 git status
 ```
 Example
-![](./Task1/3_gitStatus.jpg)
+![](./3_gitStatus.jpg)
 
 Shows information about the current changes ( new files added, updated, deleted, renamed etc)
 
@@ -32,14 +32,14 @@ git add <filename>
 ```
 Adds the specic file to the staging area.
 Example
-![](./Task1/4_gitAdd.jpg)
+![](./4_gitAdd.jpg)
 
 ## 5. Commit
 ```
 git commit -m "Commit messege"
 ```
 Example
-![](./Task1/5_gitCommit.jpg)
+![](./5_gitCommit.jpg)
 
 Commits the changes
 
@@ -49,7 +49,7 @@ Commits the changes
 git push origin main
 ```
 Example
-![](./Task1/6_gitPush.jpg)
+![](./6_gitPush.jpg)
 
 Push the changes in the staging area to the remote main branch. We can replace the main branch with any other branch name.
 
@@ -59,7 +59,7 @@ Push the changes in the staging area to the remote main branch. We can replace t
 git fetch
 ```
 Example
-![](./Task1/7_gitFetch.jpg)
+![](./7_gitFetch.jpg)
 
 Updates the repository by downloading the objects and refs.
 
@@ -69,7 +69,7 @@ Updates the repository by downloading the objects and refs.
 git pull
 ```
 Example
-![](./Task1/8_gitPull.jpg)
+![](./8_gitPull.jpg)
 
 Fetches and Pulls the changes from the remote repository to the local branch.
 
@@ -79,7 +79,7 @@ Fetches and Pulls the changes from the remote repository to the local branch.
 git branch <new branch name>
 ```
 Example
-![](./Task1/9_createBranch.jpg)
+![](./9_createBranch.jpg)
 
 Creates a new branch with given name.
 
@@ -89,7 +89,7 @@ Creates a new branch with given name.
 git branch
 ```
 Example
-![](./Task1/10_listBranchOnLocal.jpg)
+![](./10_listBranchOnLocal.jpg)
 
 Lists all branch that are present on local repository.
 
@@ -103,7 +103,7 @@ or
 git checkout <branch name>
 ```
 Example
-![](./Task1/11_checkoutNewBranch.jpg)
+![](./11_checkoutNewBranch.jpg)
 
 Switch to the given branch name.
 
@@ -113,7 +113,7 @@ Switch to the given branch name.
 git merge <branch name>
 ```
 Example
-![](./Task1/12_gitMerge.jpg)
+![](./12_gitMerge.jpg)
 
 Merges changes in given branch to the current branch.
 
@@ -123,7 +123,7 @@ Merges changes in given branch to the current branch.
 git log
 ```
 Example
-![](./Task1/13_gitLog.jpg)
+![](./13_gitLog.jpg)
 
 Shows commit history of the repository
 
@@ -133,7 +133,7 @@ Shows commit history of the repository
 git diff
 ```
 Example
-![](./Task1/14_gitDiff.jpg)
+![](./14_gitDiff.jpg)
 
 Shows changes between the current change and last commit.
 
