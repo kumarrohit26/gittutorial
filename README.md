@@ -1,6 +1,7 @@
-## This is Git Tutorials By Rohit Kumar.
-## We will learn more about Git.
+This project is created to have a better understanding of github and how it is used in an organisation.
 
-### Changes by Developer2
+As part of this project, we have achieved below things.
 
-### Adding a new commit to the new branch.
+1. Demonstarted basic git commands with explanation and screenshots. ([Task 1](./Task1/))
+2. Created this project as an open-source project.
+3. Added two collaborators.
